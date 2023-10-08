@@ -1,15 +1,31 @@
 package com.sjdddd.train.member.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
+import com.sjdddd.train.member.domain.Member;
+import com.sjdddd.train.member.domain.MemberExample;
+import org.apache.ibatis.annotations.Param;
 
-/**
- * @Author: 沈佳栋
- * @Description: TODO
- * @DateTime: 2023/10/8 17:16
- **/
+import java.util.List;
 
-@Mapper
 public interface MemberMapper {
+    long countByExample(MemberExample example);
 
-    int count();
+    int deleteByExample(MemberExample example);
+
+    int deleteByPrimaryKey(Long id);
+
+    int insert(Member row);
+
+    int insertSelective(Member row);
+
+    List<Member> selectByExample(MemberExample example);
+
+    Member selectByPrimaryKey(Long id);
+
+    int updateByExampleSelective(@Param("row") Member row, @Param("example") MemberExample example);
+
+    int updateByExample(@Param("row") Member row, @Param("example") MemberExample example);
+
+    int updateByPrimaryKeySelective(Member row);
+
+    int updateByPrimaryKey(Member row);
 }

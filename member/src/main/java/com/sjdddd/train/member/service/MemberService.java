@@ -7,5 +7,5 @@ package com.sjdddd.train.member.service;
  **/
 public interface MemberService {
 
-    int count();
+    int countByExample();
 }

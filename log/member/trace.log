@@ -579,3 +579,41 @@ Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or '
 2023-10-08 17:50:51.875 DEBUG com.sjdddd.train.member.mapper.MemberMapper.count :135  [32m                  [0;39m <==      Total: 1
 2023-10-08 17:50:51.876 INFO  com.sjdddd.train.common.aspect.LogAspect          :84   [32m                  [0;39m 返回结果: 0
 2023-10-08 17:50:51.876 INFO  com.sjdddd.train.common.aspect.LogAspect          :85   [32m                  [0;39m ------------- 结束 耗时：61 ms -------------
+2023-10-08 20:46:14.680 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-08 20:46:14.684 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-08 20:46:37.650 INFO  com.sjdddd.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.8 with PID 98269 (/Users/shenjiadong/Desktop/train/member/target/classes started by shenjiadong in /Users/shenjiadong/Desktop/train)
+2023-10-08 20:46:37.652 INFO  com.sjdddd.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-08 20:46:37.672 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-08 20:46:37.672 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-08 20:46:38.118 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=fd5712f4-9d0b-3523-9331-53d85fe7141b
+2023-10-08 20:46:38.470 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-08 20:46:38.476 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-08 20:46:38.476 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-08 20:46:38.476 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-08 20:46:38.503 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-08 20:46:38.503 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 831 ms
+2023-10-08 20:46:39.070 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-08 20:46:39.084 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-08 20:46:39.124 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-08 20:46:39.132 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-08 20:46:39.146 INFO  com.sjdddd.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.767 seconds (process running for 2.038)
+2023-10-08 20:46:39.151 INFO  com.sjdddd.train.member.config.MemberApplication  :21   [32m                  [0;39m 启动成功！！
+2023-10-08 20:46:39.152 INFO  com.sjdddd.train.member.config.MemberApplication  :22   [32m                  [0;39m Member地址: 	http://127.0.0.1:8001/member/test
+2023-10-08 20:46:39.356 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-08 20:46:39.356 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-08 20:46:39.356 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-08 20:46:39.357 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-08 20:46:39.505 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a91fc98
+2023-10-08 20:46:39.507 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-08 20:46:42.140 INFO  com.sjdddd.train.common.aspect.LogAspect          :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-08 20:46:42.141 INFO  com.sjdddd.train.common.aspect.LogAspect          :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2023-10-08 20:46:42.141 INFO  com.sjdddd.train.common.aspect.LogAspect          :50   [32m                  [0;39m 类名方法: com.sjdddd.train.member.controller.MemberController.count
+2023-10-08 20:46:42.141 INFO  com.sjdddd.train.common.aspect.LogAspect          :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-08 20:46:42.163 INFO  com.sjdddd.train.common.aspect.LogAspect          :72   [32m                  [0;39m 请求参数: []
+2023-10-08 20:46:42.179 DEBUG c.s.t.member.mapper.MemberMapper.countByExample   :135  [32m                  [0;39m ==>  Preparing: select count(*) from member
+2023-10-08 20:46:42.190 DEBUG c.s.t.member.mapper.MemberMapper.countByExample   :135  [32m                  [0;39m ==> Parameters: 
+2023-10-08 20:46:42.203 TRACE c.s.t.member.mapper.MemberMapper.countByExample   :141  [32m                  [0;39m <==    Columns: count(*)
+2023-10-08 20:46:42.203 TRACE c.s.t.member.mapper.MemberMapper.countByExample   :141  [32m                  [0;39m <==        Row: 0
+2023-10-08 20:46:42.204 DEBUG c.s.t.member.mapper.MemberMapper.countByExample   :135  [32m                  [0;39m <==      Total: 1
+2023-10-08 20:46:42.205 INFO  com.sjdddd.train.common.aspect.LogAspect          :84   [32m                  [0;39m 返回结果: 0
+2023-10-08 20:46:42.205 INFO  com.sjdddd.train.common.aspect.LogAspect          :85   [32m                  [0;39m ------------- 结束 耗时：65 ms -------------
