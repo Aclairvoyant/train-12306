@@ -1,2 +1,23 @@
 server:
   port: 8000
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: member
+          uri: http://127.0.0.1:8001
+          predicates:
+            - Path=/member/**
+  datasource:
+    url: jdbc:mysql://localhost:3306/train
+    username: train
+    password: shenjiadong1010
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:/mapper/**/*.xml
+  configuration:
+    #开启驼峰命名
+    map-underscore-to-camel-case: true
