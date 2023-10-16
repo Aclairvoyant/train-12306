@@ -1,5 +1,7 @@
 package com.sjdddd.train.member.service;
 
+import com.sjdddd.train.member.req.MemberRegisterReq;
+
 /**
  * @Author: 沈佳栋
  * @Description: TODO
@@ -8,4 +10,6 @@ package com.sjdddd.train.member.service;
 public interface MemberService {
 
     int countByExample();
+
+    long register(MemberRegisterReq req);
 }
