@@ -859,3 +859,195 @@ java.lang.RuntimeException: 该手机号已注册
 2023-10-16 20:30:48.421 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
 2023-10-16 20:30:50.767 ERROR c.s.t.common.controller.ControllerExceptionHandler:60   [32m                  [0;39m 校验异常：手机号不能为空
 2023-10-16 20:30:50.778 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberRegisterReq' on field 'mobile': rejected value []; codes [NotBlank.memberRegisterReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberRegisterReq.mobile,mobile]; arguments []; default message [mobile]]; default message [手机号不能为空]]
+2023-10-16 20:47:41.195 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-16 20:47:41.261 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-16 20:47:44.773 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-16 20:47:44.795 INFO  com.sjdddd.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.8 with PID 14310 (/Users/shenjiadong/Desktop/train/member/target/classes started by shenjiadong in /Users/shenjiadong/Desktop/train)
+2023-10-16 20:47:44.795 INFO  com.sjdddd.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 20:47:44.816 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16 20:47:44.817 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16 20:47:45.317 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cabd4fc0-dafc-3b7b-91f9-7332746eef66
+2023-10-16 20:47:45.659 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 20:47:45.664 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:47:45.664 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-16 20:47:45.664 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-16 20:47:45.690 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 20:47:45.690 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 873 ms
+2023-10-16 20:47:46.292 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-16 20:47:46.311 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-16 20:47:46.353 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:47:46.359 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 20:47:46.373 INFO  com.sjdddd.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.831 seconds (process running for 2.088)
+2023-10-16 20:47:46.377 INFO  com.sjdddd.train.member.config.MemberApplication  :21   [32m                  [0;39m 启动成功！！
+2023-10-16 20:47:46.378 INFO  com.sjdddd.train.member.config.MemberApplication  :22   [32m                  [0;39m Member地址: 	http://127.0.0.1:8001/member/test
+2023-10-16 20:47:46.604 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16 20:47:46.604 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-16 20:47:46.605 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-16 20:47:46.605 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-16 20:47:46.754 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f7472fc
+2023-10-16 20:47:46.759 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-16 20:47:49.898 INFO  com.sjdddd.train.common.aspect.LogAspect          :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-16 20:47:49.899 INFO  com.sjdddd.train.common.aspect.LogAspect          :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2023-10-16 20:47:49.899 INFO  com.sjdddd.train.common.aspect.LogAspect          :50   [32m                  [0;39m 类名方法: com.sjdddd.train.member.controller.MemberController.register
+2023-10-16 20:47:49.899 INFO  com.sjdddd.train.common.aspect.LogAspect          :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-16 20:47:49.931 INFO  com.sjdddd.train.common.aspect.LogAspect          :72   [32m                  [0;39m 请求参数: [{"mobile":"123456789"}]
+2023-10-16 20:47:49.951 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-10-16 20:47:49.962 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==> Parameters: 123456789(String)
+2023-10-16 20:47:49.973 TRACE c.s.t.member.mapper.MemberMapper.selectByExample  :141  [32m                  [0;39m <==    Columns: id, mobile
+2023-10-16 20:47:49.973 TRACE c.s.t.member.mapper.MemberMapper.selectByExample  :141  [32m                  [0;39m <==        Row: 1697444548736, 123456789
+2023-10-16 20:47:49.974 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m <==      Total: 1
+2023-10-16 20:47:49.977 ERROR c.s.t.common.controller.ControllerExceptionHandler:45   [32m                  [0;39m 业务异常：手机号已存在
+2023-10-16 20:47:49.986 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [com.sjdddd.train.common.exception.BusinessException]
+2023-10-16 20:48:02.505 INFO  com.sjdddd.train.common.aspect.LogAspect          :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-16 20:48:02.505 INFO  com.sjdddd.train.common.aspect.LogAspect          :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2023-10-16 20:48:02.506 INFO  com.sjdddd.train.common.aspect.LogAspect          :50   [32m                  [0;39m 类名方法: com.sjdddd.train.member.controller.MemberController.register
+2023-10-16 20:48:02.506 INFO  com.sjdddd.train.common.aspect.LogAspect          :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-16 20:48:02.506 INFO  com.sjdddd.train.common.aspect.LogAspect          :72   [32m                  [0;39m 请求参数: [{"mobile":"123456789000"}]
+2023-10-16 20:48:02.508 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-10-16 20:48:02.508 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==> Parameters: 123456789000(String)
+2023-10-16 20:48:02.509 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m <==      Total: 0
+2023-10-16 20:48:02.519 DEBUG c.sjdddd.train.member.mapper.MemberMapper.insert  :135  [32m                  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2023-10-16 20:48:02.520 DEBUG c.sjdddd.train.member.mapper.MemberMapper.insert  :135  [32m                  [0;39m ==> Parameters: 1713899602127753216(Long), 123456789000(String)
+2023-10-16 20:48:02.547 ERROR c.s.t.common.controller.ControllerExceptionHandler:29   [32m                  [0;39m 系统异常：
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'mobile' at row 1
+### The error may exist in file [/Users/shenjiadong/Desktop/train/member/target/classes/mapper/MemberMapper.xml]
+### The error may involve com.sjdddd.train.member.mapper.MemberMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into member (id, mobile)     values (?, ?)
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'mobile' at row 1
+; Data truncation: Data too long for column 'mobile' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:100)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy99.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy100.insert(Unknown Source)
+	at com.sjdddd.train.member.service.impl.MemberServiceImpl.register(MemberServiceImpl.java:50)
+	at com.sjdddd.train.member.controller.MemberController.register(MemberController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.sjdddd.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.sjdddd.train.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'mobile' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy4/jdk.proxy4.$Proxy137.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 89 common frames omitted
+2023-10-16 20:48:02.551 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL>### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'mobile' at row 1<EOL>### The error may exist in file [/Users/shenjiadong/Desktop/train/member/target/classes/mapper/MemberMapper.xml]<EOL>### The error may involve com.sjdddd.train.member.mapper.MemberMapper.insert-Inline<EOL>### The error occurred while setting parameters<EOL>### SQL: insert into member (id, mobile)     values (?, ?)<EOL>### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'mobile' at row 1<EOL>; Data truncation: Data too long for column 'mobile' at row 1]
+2023-10-16 20:48:41.091 INFO  com.sjdddd.train.common.aspect.LogAspect          :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-16 20:48:41.095 INFO  com.sjdddd.train.common.aspect.LogAspect          :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2023-10-16 20:48:41.095 INFO  com.sjdddd.train.common.aspect.LogAspect          :50   [32m                  [0;39m 类名方法: com.sjdddd.train.member.controller.MemberController.register
+2023-10-16 20:48:41.095 INFO  com.sjdddd.train.common.aspect.LogAspect          :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-16 20:48:41.095 INFO  com.sjdddd.train.common.aspect.LogAspect          :72   [32m                  [0;39m 请求参数: [{"mobile":"12345678900"}]
+2023-10-16 20:48:41.097 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-10-16 20:48:41.097 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==> Parameters: 12345678900(String)
+2023-10-16 20:48:41.098 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m <==      Total: 0
+2023-10-16 20:48:41.099 DEBUG c.sjdddd.train.member.mapper.MemberMapper.insert  :135  [32m                  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2023-10-16 20:48:41.099 DEBUG c.sjdddd.train.member.mapper.MemberMapper.insert  :135  [32m                  [0;39m ==> Parameters: 1713899763944001536(Long), 12345678900(String)
+2023-10-16 20:48:41.111 DEBUG c.sjdddd.train.member.mapper.MemberMapper.insert  :135  [32m                  [0;39m <==    Updates: 1
+2023-10-16 20:48:41.116 INFO  com.sjdddd.train.common.aspect.LogAspect          :84   [32m                  [0;39m 返回结果: {"content":1713899763944001536,"success":true}
+2023-10-16 20:48:41.117 INFO  com.sjdddd.train.common.aspect.LogAspect          :85   [32m                  [0;39m ------------- 结束 耗时：26 ms -------------
