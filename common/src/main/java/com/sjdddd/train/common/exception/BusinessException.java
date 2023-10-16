@@ -27,4 +27,9 @@ public class BusinessException extends BaseException{
     public void setE(BusinessExceptionEnum e) {
         this.e = e;
     }
+
+    @Override
+    public Throwable fillInStackTrace() {
+        return super.fillInStackTrace();
+    }
 }

@@ -253,3 +253,5 @@ java.lang.RuntimeException: 该手机号已注册
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 20:25:19.802 ERROR c.s.t.common.controller.ControllerExceptionHandler:44   [32m                  [0;39m 业务异常：手机号已存在
+2023-10-16 20:30:50.767 ERROR c.s.t.common.controller.ControllerExceptionHandler:60   [32m                  [0;39m 校验异常：手机号不能为空

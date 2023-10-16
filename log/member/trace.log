@@ -765,3 +765,97 @@ java.lang.RuntimeException: 该手机号已注册
 2023-10-16 19:14:42.535 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m38s695ms).
 2023-10-16 19:46:08.168 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m21s540ms).
 2023-10-16 19:56:25.180 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m46s270ms).
+2023-10-16 20:25:14.371 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-16 20:25:14.405 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-16 20:25:17.703 INFO  com.sjdddd.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.8 with PID 13495 (/Users/shenjiadong/Desktop/train/member/target/classes started by shenjiadong in /Users/shenjiadong/Desktop/train)
+2023-10-16 20:25:17.704 INFO  com.sjdddd.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 20:25:17.728 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16 20:25:17.729 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16 20:25:18.215 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b19b8622-5fb4-3373-b16e-6259158c74fe
+2023-10-16 20:25:18.597 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 20:25:18.603 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:25:18.604 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-16 20:25:18.604 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-16 20:25:18.631 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 20:25:18.631 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 902 ms
+2023-10-16 20:25:19.253 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-16 20:25:19.270 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-16 20:25:19.305 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:25:19.312 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 20:25:19.325 INFO  com.sjdddd.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.894 seconds (process running for 2.185)
+2023-10-16 20:25:19.330 INFO  com.sjdddd.train.member.config.MemberApplication  :21   [32m                  [0;39m 启动成功！！
+2023-10-16 20:25:19.331 INFO  com.sjdddd.train.member.config.MemberApplication  :22   [32m                  [0;39m Member地址: 	http://127.0.0.1:8001/member/test
+2023-10-16 20:25:19.477 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16 20:25:19.477 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-16 20:25:19.477 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-16 20:25:19.478 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-16 20:25:19.671 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a08a787
+2023-10-16 20:25:19.673 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-16 20:25:19.721 INFO  com.sjdddd.train.common.aspect.LogAspect          :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-16 20:25:19.721 INFO  com.sjdddd.train.common.aspect.LogAspect          :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2023-10-16 20:25:19.721 INFO  com.sjdddd.train.common.aspect.LogAspect          :50   [32m                  [0;39m 类名方法: com.sjdddd.train.member.controller.MemberController.register
+2023-10-16 20:25:19.722 INFO  com.sjdddd.train.common.aspect.LogAspect          :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-16 20:25:19.752 INFO  com.sjdddd.train.common.aspect.LogAspect          :72   [32m                  [0;39m 请求参数: [{"mobile":"123456789"}]
+2023-10-16 20:25:19.774 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-10-16 20:25:19.785 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m ==> Parameters: 123456789(String)
+2023-10-16 20:25:19.799 TRACE c.s.t.member.mapper.MemberMapper.selectByExample  :141  [32m                  [0;39m <==    Columns: id, mobile
+2023-10-16 20:25:19.799 TRACE c.s.t.member.mapper.MemberMapper.selectByExample  :141  [32m                  [0;39m <==        Row: 1697444548736, 123456789
+2023-10-16 20:25:19.799 DEBUG c.s.t.member.mapper.MemberMapper.selectByExample  :135  [32m                  [0;39m <==      Total: 1
+2023-10-16 20:25:19.802 ERROR c.s.t.common.controller.ControllerExceptionHandler:44   [32m                  [0;39m 业务异常：手机号已存在
+2023-10-16 20:25:19.823 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [com.sjdddd.train.common.exception.BusinessException]
+2023-10-16 20:29:25.593 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-16 20:29:25.613 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-16 20:29:29.968 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-16 20:29:29.988 INFO  com.sjdddd.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.8 with PID 13646 (/Users/shenjiadong/Desktop/train/member/target/classes started by shenjiadong in /Users/shenjiadong/Desktop/train)
+2023-10-16 20:29:29.989 INFO  com.sjdddd.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 20:29:30.011 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16 20:29:30.012 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16 20:29:30.500 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cabd4fc0-dafc-3b7b-91f9-7332746eef66
+2023-10-16 20:29:30.859 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 20:29:30.864 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:29:30.864 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-16 20:29:30.864 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-16 20:29:30.892 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 20:29:30.892 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 880 ms
+2023-10-16 20:29:31.459 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-16 20:29:31.475 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-16 20:29:31.525 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:29:31.532 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 20:29:31.545 INFO  com.sjdddd.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.805 seconds (process running for 2.068)
+2023-10-16 20:29:31.548 INFO  com.sjdddd.train.member.config.MemberApplication  :21   [32m                  [0;39m 启动成功！！
+2023-10-16 20:29:31.549 INFO  com.sjdddd.train.member.config.MemberApplication  :22   [32m                  [0;39m Member地址: 	http://127.0.0.1:8001/member/test
+2023-10-16 20:29:31.818 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16 20:29:31.818 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-16 20:29:31.818 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-16 20:29:31.819 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-16 20:29:31.954 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4442b190
+2023-10-16 20:29:31.956 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-16 20:30:43.263 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-16 20:30:43.287 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-16 20:30:46.373 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-16 20:30:46.392 INFO  com.sjdddd.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.8 with PID 13690 (/Users/shenjiadong/Desktop/train/member/target/classes started by shenjiadong in /Users/shenjiadong/Desktop/train)
+2023-10-16 20:30:46.392 INFO  com.sjdddd.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 20:30:46.419 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16 20:30:46.420 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16 20:30:46.935 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cabd4fc0-dafc-3b7b-91f9-7332746eef66
+2023-10-16 20:30:47.292 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 20:30:47.297 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:30:47.298 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-16 20:30:47.298 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-16 20:30:47.327 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 20:30:47.327 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 907 ms
+2023-10-16 20:30:47.938 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-16 20:30:47.988 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m                  [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-16 20:30:48.031 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 20:30:48.037 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 20:30:48.052 INFO  com.sjdddd.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.899 seconds (process running for 2.151)
+2023-10-16 20:30:48.057 INFO  com.sjdddd.train.member.config.MemberApplication  :21   [32m                  [0;39m 启动成功！！
+2023-10-16 20:30:48.057 INFO  com.sjdddd.train.member.config.MemberApplication  :22   [32m                  [0;39m Member地址: 	http://127.0.0.1:8001/member/test
+2023-10-16 20:30:48.266 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16 20:30:48.267 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-16 20:30:48.268 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-16 20:30:48.268 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-16 20:30:48.419 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@687e7aff
+2023-10-16 20:30:48.421 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-16 20:30:50.767 ERROR c.s.t.common.controller.ControllerExceptionHandler:60   [32m                  [0;39m 校验异常：手机号不能为空
+2023-10-16 20:30:50.778 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberRegisterReq' on field 'mobile': rejected value []; codes [NotBlank.memberRegisterReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberRegisterReq.mobile,mobile]; arguments []; default message [mobile]]; default message [手机号不能为空]]

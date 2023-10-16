@@ -14,5 +14,9 @@ public class BaseException extends RuntimeException {
         super(message);
     }
 
-
+    //不写入堆栈，提高性能
+    @Override
+    public Throwable fillInStackTrace() {
+        return this;
+    }
 }
