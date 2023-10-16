@@ -1,6 +1,8 @@
 package com.sjdddd.train.member.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
+import com.sjdddd.train.common.exception.BusinessException;
+import com.sjdddd.train.common.exception.BusinessExceptionEnum;
 import com.sjdddd.train.member.domain.Member;
 import com.sjdddd.train.member.domain.MemberExample;
 import com.sjdddd.train.member.mapper.MemberMapper;
@@ -37,7 +39,7 @@ public class MemberServiceImpl implements MemberService {
         //判断list是否为空，即是否有账号
         if (CollUtil.isNotEmpty(list)){
             //return list.get(0).getId();
-            throw new RuntimeException("该手机号已注册");
+            throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
 
         Member member = new Member();
