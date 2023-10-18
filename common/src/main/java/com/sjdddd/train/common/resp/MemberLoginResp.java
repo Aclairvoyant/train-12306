@@ -1,5 +1,8 @@
 package com.sjdddd.train.common.resp;
 
+import lombok.Builder;
+
+@Builder
 public class MemberLoginResp {
     private Long id;
 

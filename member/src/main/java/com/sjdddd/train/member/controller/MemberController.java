@@ -1,6 +1,8 @@
 package com.sjdddd.train.member.controller;
 
 import com.sjdddd.train.common.resp.CommonResp;
+import com.sjdddd.train.common.resp.MemberLoginResp;
+import com.sjdddd.train.member.req.MemberLoginReq;
 import com.sjdddd.train.member.req.MemberRegisterReq;
 import com.sjdddd.train.member.req.MemberSendCodeReq;
 import com.sjdddd.train.member.service.MemberService;
@@ -45,5 +47,11 @@ public class MemberController {
     public CommonResp sendCode(@Valid MemberSendCodeReq req) {
         memberService.sendCode(req);
         return new CommonResp();
+    }
+
+    @PostMapping("/login")
+    public CommonResp<MemberLoginResp> login(@Valid MemberLoginReq req) {
+        MemberLoginResp resp = memberService.login(req);
+        return new CommonResp<>(resp);
     }
 }

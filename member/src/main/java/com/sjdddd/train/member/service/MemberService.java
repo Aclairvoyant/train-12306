@@ -1,5 +1,7 @@
 package com.sjdddd.train.member.service;
 
+import com.sjdddd.train.common.resp.MemberLoginResp;
+import com.sjdddd.train.member.req.MemberLoginReq;
 import com.sjdddd.train.member.req.MemberRegisterReq;
 import com.sjdddd.train.member.req.MemberSendCodeReq;
 
@@ -15,4 +17,6 @@ public interface MemberService {
     long register(MemberRegisterReq req);
 
     void sendCode(MemberSendCodeReq req);
+
+    MemberLoginResp login(MemberLoginReq req);
 }
