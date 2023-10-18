@@ -65,11 +65,10 @@ export default defineComponent({
         let data = res.data;
         if (data.success) {
           notification.success({
-                message: "发送成功",
-                description: "验证码发送成功，请注意查收"
-              },
-              loginForm.code = "8888"
-          )
+            message: "发送成功",
+            description: "验证码发送成功，请注意查收"
+          })
+          loginForm.code = "8888"
         } else {
           notification.error({
             message: "发送失败",

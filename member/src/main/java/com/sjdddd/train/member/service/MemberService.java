@@ -1,6 +1,7 @@
 package com.sjdddd.train.member.service;
 
 import com.sjdddd.train.member.req.MemberRegisterReq;
+import com.sjdddd.train.member.req.MemberSendCodeReq;
 
 /**
  * @Author: 沈佳栋
@@ -12,4 +13,6 @@ public interface MemberService {
     int countByExample();
 
     long register(MemberRegisterReq req);
+
+    void sendCode(MemberSendCodeReq req);
 }
